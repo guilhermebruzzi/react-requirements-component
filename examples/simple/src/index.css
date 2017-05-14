@@ -7,3 +7,26 @@ html, body {
 * {
   box-sizing: border-box;
 }
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-body {
+  padding: 20px;
+}
+
+.App-status {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.doneBtn {
+  margin-left: 10px;
+}

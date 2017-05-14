@@ -1,13 +1,36 @@
 // @flow
 
 import React, { Component } from 'react'
-import './App.css'
-import Requirements from './lib'
-import RequirementListItem from './RequirementListItem'
+import PropTypes from 'prop-types'
+// $FlowFixMe: suppressing external lib validation
+import Requirements from '../../../lib'
 
 type State = {
   count: number,
   done: boolean
+}
+
+const RequirementListItem = (
+  props: { num: string, done?: boolean },
+  context: { markAsDone: string => void }
+) => {
+  const textStyle = props.done ? { textDecoration: 'line-through' } : {}
+  const doneButtonComponent = (
+    <button className="doneBtn" onClick={() => context.markAsDone(props.num)}>
+      Done
+    </button>
+  )
+
+  return (
+    <li key={props.num}>
+      <span style={textStyle}>Requirement {props.num}</span>
+      {!props.done ? doneButtonComponent : null}
+    </li>
+  )
+}
+
+RequirementListItem.contextTypes = {
+  markAsDone: PropTypes.func,
 }
 
 export default class App extends Component {

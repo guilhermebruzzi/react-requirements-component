@@ -5,3 +5,7 @@ This component pass a function markAsDone to it's child as well as each status o
 ## Example
 
 See [example](examples/simple)
+
+## License
+
+[MIT License](LICENSE)

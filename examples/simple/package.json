@@ -1,7 +1,6 @@
 {
   "name": "todo",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
@@ -10,6 +9,7 @@
     "eslint": "^3.19.0",
     "eslint-config-vtex": "^5.1.0",
     "eslint-config-vtex-react": "^3.0.0",
+    "eslint-plugin-flowtype": "^2.33.0",
     "eslint-plugin-react": "^7.0.1",
     "flow-bin": "^0.46.0",
     "react-scripts": "0.9.5"

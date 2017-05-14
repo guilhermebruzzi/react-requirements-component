@@ -1,0 +1,16 @@
+{
+  "presets": [[
+    "es2015", {
+      "loose": true,
+      "modules": false
+    }],
+    "flow",
+    "stage-2",
+    "react"
+  ],
+  "plugins": [
+    "transform-es2015-modules-commonjs",
+    "transform-class-properties",
+    "transform-object-rest-spread"
+  ]
+}

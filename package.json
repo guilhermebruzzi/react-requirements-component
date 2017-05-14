@@ -4,5 +4,34 @@
   "description": "A react component to trigger a callback when a number of requirements are done",
   "main": "lib/index.js",
   "author": "Guilherme Heynemann Bruzzi",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-vtex": "^5.1.0",
+    "eslint-config-vtex-react": "^3.0.0",
+    "eslint-plugin-flowtype": "^2.33.0",
+    "eslint-plugin-react": "^7.0.1",
+    "flow-bin": "^0.46.0",
+    "webpack": "^2.5.1"
+  },
+  "scripts": {
+    "build": "webpack -p",
+    "flow": "flow src",
+    "lint": "eslint src",
+    "lint-fix": "eslint src --fix"
+  }
 }
