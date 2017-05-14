@@ -1,10 +1,14 @@
 {
   "name": "react-requirements-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A react component to trigger a callback when a number of requirements are done",
   "main": "lib/index.js",
   "author": "Guilherme Heynemann Bruzzi",
   "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/guilhermebruzzi/react-requirements-component.git"
+  },
   "dependencies": {
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
