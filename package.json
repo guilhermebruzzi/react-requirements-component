@@ -1,0 +1,8 @@
+{
+  "name": "react-requirements-component",
+  "version": "0.0.1",
+  "description": "A react component to trigger a callback when a number of requirements are done",
+  "main": "lib/index.js",
+  "author": "Guilherme Heynemann Bruzzi",
+  "license": "MIT"
+}
